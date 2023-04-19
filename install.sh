@@ -29,7 +29,7 @@ sudo sed -i '/www-data/d' /etc/sudoers &
 wait
 sudo sed -i '/apache/d' /etc/sudoers & 
 wait
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/brook.sh --ipv4) &
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/brook.sh --ipv4) &
 wait
 
 if command -v apt-get >/dev/null; then
