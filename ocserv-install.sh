@@ -1,5 +1,4 @@
 #!/bin/bash
-#By Hamed Ap
 systemctl stop apache2
 
 sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config
