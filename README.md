@@ -28,7 +28,7 @@ _یک اسکریپت حرفه ای برای مدیریت SSH Tunnel  که با �
 
 ✔️ Database Cluster for Multi Server
 
-✔️ Source Encoded By Ioncube
+✔️ Source Encoded By latest Ioncube
 
 ✔️ Multi Languages
 
