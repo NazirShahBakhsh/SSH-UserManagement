@@ -39,7 +39,7 @@ _یک اسکریپت حرفه ای برای مدیریت SSH Tunnel  که با �
 <br>
 <br>
 ### Usages:
-📌 Install:
+📌 Install & Update:
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/install.sh --ipv4)
 ```
