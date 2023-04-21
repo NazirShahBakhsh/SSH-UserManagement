@@ -70,6 +70,14 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
+📌 Install Call:
+```
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
+```
+<b>Note:</b> To connect encrypted end-to-end calls.
+<br>
+<br>
+<br>
 
 **Copyright &copy; [@InternetCables](https://t.me/InternetCables) Please through this link [Sponsors](https://github.com/InternetCables/SSH-UserManagement/blob/main/.github/sponsors.yml) Support me!**
 <br>
