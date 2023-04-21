@@ -73,7 +73,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 📌 Install Call:
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
-
+```
 <b>Note:</b> To connect encrypted end-to-end calls.
 <br>
 <br>
