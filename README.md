@@ -34,7 +34,7 @@ _یک اسکریپت حرفه ای برای مدیریت SSH Tunnel  که با �
 
 ✔️ Reseller Panel
 
-❌ Licensed For Sponsors
+❌ Licensed in three modes: Free / Limit / Full
 <br>
 <br>
 <br>
