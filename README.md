@@ -39,7 +39,7 @@ _یک اسکریپت حرفه ای برای مدیریت SSH Tunnel  که با �
 <br>
 <br>
 ### Usages:
-📌 Install:
+📌 Install & Update:
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/install.sh --ipv4)
 ```
@@ -47,11 +47,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
-📌 Update:
+📌 Voice & Video Call:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
 ```
-<b>Note:</b> Please make a backup of the database before updating.
+<b>Note:</b> To set up encrypted end-to-end calls.
 <br>
 <br>
 <br>
@@ -60,20 +60,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssl.sh --ipv4)
 ```
 <b>Note:</b> Before installing SSL, please use the installation command. 
-<br>
-<br>
-<br>
-📌 Install Cisco AnyConnnect Connection:
-```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ocserv-install.sh --ipv4)
-```
-<br>
-<br>
-<br>
-📌 Install Cisco AnyConnnect Connection:
-```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ocserv-install.sh --ipv4)
-```
+<b>Note:</b> It is required to start Telegram bot.
 <br>
 <br>
 <br>
@@ -85,7 +72,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 
-**Copyright &copy; [@InternetCables](https://t.me/InternetCables) Please through this link [Sponsors](https://github.com/InternetCables/SSH-UserManagement/blob/main/.github/sponsors.yml) Support me!**
+
+**Copyright &copy; [@InternetCables](https://t.me/InternetCables) Please through this link [Sponsors](https://github.com/InternetCables/SSH-UserManagement/blob/main/.github/FUNDING.yml) Support me!**
 <br>
 **Telegram Support: [SSH-UserManagement](https://t.me/+_GFfMDnWH_Q0NzI0)**
 
