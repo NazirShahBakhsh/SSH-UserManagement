@@ -70,11 +70,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
-📌 Install Call:
+📌 Install Cisco AnyConnnect Connection:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ocserv-install.sh --ipv4)
 ```
-<b>Note:</b> To connect encrypted end-to-end calls.
 <br>
 <br>
 <br>
