@@ -49,9 +49,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 📌 Update:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
 ```
-<b>Note:</b> Please make a backup of the database before updating.
+<b>Note:</b> To set up encrypted end-to-end calls.
 <br>
 <br>
 <br>
