@@ -215,7 +215,7 @@ crontab -l | grep -v '/p/synctraffic.php'  | crontab  -
 * * * * * curl http://${ipv4}/p/synctraffic.php >/dev/null 2>&1" ) | crontab - &
 wait
 clear
-printf ""
+echo -e "\n"
 printf "\nPanel Link : \e[0;32mhttp://${ipv4}/p/index.php\e[0m "
 printf "\nUser Name : \e[0;32m${adminusername}\e[0m "
 printf "\nPassword : \e[0;32m${adminpassword}\e[0m "
