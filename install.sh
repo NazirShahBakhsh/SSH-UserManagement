@@ -216,11 +216,11 @@ crontab -l | grep -v '/p/synctraffic.php'  | crontab  -
 wait
 clear
 printf ""
-printf "\nPanel Link : \e[32mhttp://${ipv4}/p/index.php\e[0m "
-printf "\nUserName : \e[32m${adminusername}\e[0m "
-printf "\nPassword : \e[32m${adminpassword}\e[0m "
-printf "\nPort : \e[32m${port}\e[0m"
-printf "\nTelegram ID Provider : \e[32m@InternetCables\e[0m "
-printf "\nLicensed : \e[32mFree\e[0m \n"
+printf "\nPanel Link : \e[0;32mhttp://${ipv4}/p/index.php\e[0m "
+printf "\nUserName : \e[0;32m${adminusername}\e[0m "
+printf "\nPassword : \e[0;32m${adminpassword}\e[0m "
+printf "\nPort : \e[0;32m${port}\e[0m"
+printf "\nTelegram ID Provider : \e[0;32m@InternetCables\e[0m "
+printf "\nLicensed : \e[0;32mFree\e[0m \n"
 printf ""
 wait
