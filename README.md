@@ -70,10 +70,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
-📌 Install Cisco AnyConnnect Connection:
+📌 Install SSL:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ocserv-install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssl.sh --ipv4)
 ```
+<b>Note:</b> Before installing SSL, please use the installation command. 
 <br>
 <br>
 <br>
