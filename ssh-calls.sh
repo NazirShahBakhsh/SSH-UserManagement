@@ -1,7 +1,8 @@
 #!/bin/bash
+
 apt install screen -y
 
-sudo wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/daybreakersx/premscript/master/badvpn-udpgw64"
+sudo wget -O /usr/bin/badvpn-udpgw "https://github.com/InternetCables/SSH-UserManagement/raw/main/BadVpn/badvpn-udpgw64"
 sudo touch /etc/rc.local
 
 cat > /etc/rc.local << ENDOFFILE
