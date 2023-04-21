@@ -1,8 +1,6 @@
 #!/bin/bash
 sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config
 wait
-sed -i 's/#Banner none/Banner /var/www/html/welcome.sh' /etc/ssh/sshd_config
-wait
 po=$(cat /etc/ssh/sshd_config | grep "^Port")
 port=$(echo "$po" | sed "s/Port //g")
 adminuser=$(mysql -N -e "use ShaHaN; select adminuser from setting where id='1';")
@@ -217,6 +215,7 @@ crontab -l | grep -v '/p/synctraffic.php'  | crontab  -
 * * * * * curl http://${ipv4}/p/synctraffic.php >/dev/null 2>&1" ) | crontab - &
 wait
 clear
+printf ""
 printf "\nPanel Link : http://${ipv4}/p/index.php"
 printf "\nUserName : \e[31m${adminusername}\e[0m "
 printf "\nPassword : \e[31m${adminpassword}\e[0m "
