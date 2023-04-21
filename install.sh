@@ -1,7 +1,7 @@
 #!/bin/bash
 sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config
 wait
-sed -i 's/#Banner none/Banner /var/www/html/welcome.txt' /etc/ssh/sshd_config
+sed -i 's/#Banner none/Banner /var/www/html/welcome.sh' /etc/ssh/sshd_config
 wait
 po=$(cat /etc/ssh/sshd_config | grep "^Port")
 port=$(echo "$po" | sed "s/Port //g")
