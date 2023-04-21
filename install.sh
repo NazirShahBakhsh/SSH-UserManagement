@@ -1,7 +1,8 @@
 #!/bin/bash
 sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config
-sed -i 's/#Banner none/Banner Telegram:@InternetCables/' /etc/ssh/sshd_config
-
+wait
+sed -i 's/#Banner none/Banner /etc/welcome/' /etc/ssh/sshd_config
+wait
 po=$(cat /etc/ssh/sshd_config | grep "^Port")
 port=$(echo "$po" | sed "s/Port //g")
 adminuser=$(mysql -N -e "use ShaHaN; select adminuser from setting where id='1';")
