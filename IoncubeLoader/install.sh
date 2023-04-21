@@ -17,7 +17,7 @@ fi
 
 if [ $(uname -m) = "aarch64" ]; then
     arch="arm64"
-    wget -4 https://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_aarch64.tar.gz
+    wget -4 https://github.com/InternetCables/SSH-UserManagement/raw/main/IoncubeLoader/ioncube_loaders_lin_aarch64.tar.gz
     sudo tar xzf ioncube_loaders_lin_aarch64.tar.gz -C /usr/lib/php/20190902
 sudo rm -rf ioncube_loaders_lin_aarch64.tar.gz
 PHPVERSION=$(php -i | grep /.+/php.ini -oE | sed 's/[^0-9.]*//g')
