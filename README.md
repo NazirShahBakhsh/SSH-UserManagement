@@ -47,7 +47,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
-📌 Update:
+📌 Voice/Video Call:
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ssh-calls.sh --ipv4)
 ```
