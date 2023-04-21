@@ -222,4 +222,5 @@ printf "\nPassword : \e[31m${adminpassword}\e[0m "
 printf "\nPort : \e[31m${port}\e[0m"
 printf "\nTelegram ID Provider : \e[31m@InternetCables\e[0m "
 printf "\nLicensed : \e[31mFree\e[0m \n"
-
+printf ""
+wait
