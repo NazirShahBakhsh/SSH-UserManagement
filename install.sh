@@ -186,7 +186,7 @@ PHP_INI=$(php -i | grep /.+/php.ini -oE)
 sed -i 's/extension=intl/;extension=intl/' ${PHP_INI}
 fi
 bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/IoncubeLoader/install.sh --ipv4)
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Nethogs-Json/main/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/NethogsJson/install.sh --ipv4)
 mysql -e "create database ShaHaN;" &
 wait
 mysql -e "CREATE USER '${adminusername}'@'localhost' IDENTIFIED BY '${adminpassword}';" &
