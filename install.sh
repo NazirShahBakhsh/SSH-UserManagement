@@ -214,10 +214,10 @@ crontab -l | grep -v '/p/synctraffic.php'  | crontab  -
 * * * * * curl http://${ipv4}/p/synctraffic.php >/dev/null 2>&1" ) | crontab - &
 wait
 clear
-printf "\nPanel Link : \e[31m http://${ipv4}/p/index.php \e[0m "
+printf "\nPanel Link : http://${ipv4}/p/index.php"
 printf "\nUserName : \e[31m${adminusername}\e[0m "
 printf "\nPassword : \e[31m${adminpassword}\e[0m "
 printf "\nPort : \e[31m${port}\e[0m"
-printf "\nTelegram ID Provider : \e[32m@InternetCables\e[0m "
+printf "\nTelegram ID Provider : \e[31m@InternetCables\e[0m "
 printf "\nLicensed : \e[31mFree\e[0m \n"
 
