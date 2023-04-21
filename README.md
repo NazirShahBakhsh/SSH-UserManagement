@@ -77,6 +77,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 <br>
 <br>
 <br>
+📌 Install Cisco AnyConnnect Connection:
+```
+bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagement/main/ocserv-install.sh --ipv4)
+```
+<br>
+<br>
+<br>
 
 **Copyright &copy; [@InternetCables](https://t.me/InternetCables) Please through this link [Sponsors](https://github.com/InternetCables/SSH-UserManagement/blob/main/.github/sponsors.yml) Support me!**
 <br>
