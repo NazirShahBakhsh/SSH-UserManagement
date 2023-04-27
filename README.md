@@ -75,5 +75,5 @@ bash <(curl -Ls https://raw.githubusercontent.com/InternetCables/SSH-UserManagem
 
 **Copyright &copy; [@InternetCables](https://t.me/InternetCables) Please through this link [Sponsors](https://github.com/InternetCables/SSH-UserManagement/blob/main/.github/FUNDING.yml) Support me!**
 <br>
-**Telegram Support: [SSH-UserManagement](https://t.me/+_GFfMDnWH_Q0NzI0)**
+**Telegram Support: [SSH-UserManagement](https://t.me/+BHoSR5mtSVZhMjg0)**
 
